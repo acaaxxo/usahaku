@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a16"
+   android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:tint="?android:attr/textColorPrimary"
+        app:srcCompat="@drawable/ic_logo2" />
+
+
+
+    <TextView
+        android:id="@+id/created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/sig"
+        android:text="Created and Designed by"
+        android:textAppearance="@style/TextAppearance.Usaha.Title" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/clb"
+        android:text="Annisa Raudya Wibowo"
+        android:textAppearance="@style/TextAppearance.Usaha.Title" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/lathi"
+        android:text="annisawibowo@gmail.com"
+        android:textAppearance="@style/TextAppearance.Usaha.Info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/clb"
+        android:layout_marginBottom="10dp"
+        android:text="Afifah Mahardika"
+        android:textAppearance="@style/TextAppearance.Usaha.Title" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lathi"
+        android:text="afifahmahardikaa@gmail.com"
+        android:textAppearance="@style/TextAppearance.Usaha.Info" />
+</LinearLayout>
